@@ -7,6 +7,7 @@ cd build/newbasic
 
 /home/phong/projects/rcdaq/online_distribution/newbasic/autogen.sh --prefix=/home/phong/projects/rcdaq/install
 
+make install
 
 ## Install pmonitor
 
