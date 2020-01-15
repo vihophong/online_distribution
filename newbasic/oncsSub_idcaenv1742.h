@@ -17,6 +17,8 @@ public:
   int    iValue(const int sample, const int ch);
   int    iValue(const int,const char *);
   void  dump ( OSTREAM& os = COUT) ;
+  int*   getIntArray (int *,const char *what="");
+  int   getHitFormat () const;
 
 protected:
   int *decode (int *);

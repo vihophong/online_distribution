@@ -271,3 +271,13 @@ void  oncsSub_idcaenv1742::dump ( OSTREAM& os )
   
   os << std::endl;
 }
+
+//! PHONG MODIFIED
+int* oncsSub_idcaenv1742::getIntArray(int *nwout, const char *what)
+{
+    return &SubeventHdr->data;
+}
+int oncsSub_idcaenv1742::getHitFormat() const
+{
+    return (int) SubeventHdr->reserved[0];
+}
