@@ -74,6 +74,7 @@ int *oncsSub_idcaenv1742::decode ( int *nwout)
   int group_offset = 4;
   int group_nr;
 
+  //printf("Decode %s %s",__LINE__,__FILE__);
   for ( group_nr=0; group_nr < 4; group_nr++)
     {
       int pos;
